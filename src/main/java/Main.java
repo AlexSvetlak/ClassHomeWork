@@ -37,8 +37,9 @@ public class Main {
         tes.gameScore();
 
         Games counting = new Games();
-
+        System.out.println("********************");
         counting.gamePriceDiference(rdr.price, gta.price);
+        System.out.println("********************");
         counting.gamePriceDiference(gta.price, tes.price);
 
     }
