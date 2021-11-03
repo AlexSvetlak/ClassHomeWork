@@ -3,23 +3,23 @@ public class Games {
     public int price, score;
 
 
-    public void gameTitle(){
+    public void showGameTitle(){
         System.out.println("Название игры: " + title);
     }
 
-    public void gamePrice(){
+    public void showGamePrice(){
         System.out.println("Стоимость: " + price);
     }
 
-    public void gameGenre(){
+    public void showGameGenre(){
         System.out.println("Жанр: " + genre);
     }
 
-    public void gameScore(){
+    public void showGameScore(){
         System.out.println("Оценка пользователей: " + score);
     }
 
-    public void gamePriceDiference(int a, int b){
+    public void countGamePriceDiference(int a, int b){
         int c;
         c = a - b;
     System.out.println("Разница в цене: " + c + "баксов");

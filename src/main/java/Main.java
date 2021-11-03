@@ -19,28 +19,28 @@ public class Main {
         tes.score = 90;
 
         System.out.println("********************");
-        rdr.gameTitle();
-        rdr.gameGenre();
-        rdr.gamePrice();
-        rdr.gameScore();
+        rdr.showGameTitle();
+        rdr.showGameGenre();
+        rdr.showGamePrice();
+        rdr.showGameScore();
 
         System.out.println("********************");
-        gta.gameTitle();
-        gta.gameGenre();
-        gta.gamePrice();
-        gta.gameScore();
+        gta.showGameTitle();
+        gta.showGameGenre();
+        gta.showGamePrice();
+        gta.showGameScore();
 
         System.out.println("********************");
-        tes.gameTitle();
-        tes.gameGenre();
-        tes.gamePrice();
-        tes.gameScore();
+        tes.showGameTitle();
+        tes.showGameGenre();
+        tes.showGamePrice();
+        tes.showGameScore();
 
         Games counting = new Games();
         System.out.println("********************");
-        counting.gamePriceDiference(rdr.price, gta.price);
+        counting.countGamePriceDiference(rdr.price, gta.price);
         System.out.println("********************");
-        counting.gamePriceDiference(gta.price, tes.price);
+        counting.countGamePriceDiference(gta.price, tes.price);
 
     }
 
